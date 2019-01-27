@@ -1,6 +1,6 @@
-# binary2Letter
+# binary2letter
 
-This lightweight, zero-dependency JavaScript library converts a string to letters.
+This lightweight, zero-dependency 😎 JavaScript library converts a string to letters.
 
 For example, `101011` is converted to `h`.
 
