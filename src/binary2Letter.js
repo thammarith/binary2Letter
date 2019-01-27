@@ -5,7 +5,7 @@ const LETTERS = [
   '-', '_',
 ];
 
-function binary2Letter(input) {
+function binary2letter(input) {
   let encoded = '';
   for(let i = 0; i < Math.ceil(input.length / 6); i++) {
     encoded += LETTERS[binary2Decimal(fillZeros(input.substr(i * 6, 6)))];
@@ -27,5 +27,5 @@ function fillZeros(str) {
 }
 
 export {
-  binary2Letter,
+  binary2letter,
 };

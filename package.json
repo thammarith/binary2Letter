@@ -1,6 +1,6 @@
 {
   "name": "binary2letter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This lightweight, zero-dependency JavaScript library converts a string to letters.",
   "main": "encode.js",
   "scripts": {
