@@ -21,19 +21,19 @@ So, `000000` in base 2 is `0` in decimal, hexadecimal. Hence, `binary2letter('00
 
 Another example is `001111` which in base 2 is `15` in decimal, `f` in hexadecimal. Hence, `binary2letter('001111')` returns `LETTERS[15]` which is `F`
 
-## Usage
+## Installation
+
+```bash
+ npm install thammarith/binary2letter
+ ```
+ 
+ ## Usage
 
 I don't know why would you want to use this but if you wish to, you can use `import` like
 
 ```javascript
 import { binary2letter } from 'binary2letter';
 ```
-
-## Installation
-
-```bash
- npm install thammarith/binary2letter
- ```
 
 ## Test
 
