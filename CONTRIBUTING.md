@@ -1,3 +1,3 @@
 # Contributing
 
-Any contributions is welcome.
+Any contribution is welcome.
