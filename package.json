@@ -1,0 +1,25 @@
+{
+  "name": "binary2letter",
+  "version": "1.0.0",
+  "description": "This lightweight, zero-dependency JavaScript library converts a string to letters.",
+  "main": "encode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thammarith/binary2Letter.git"
+  },
+  "keywords": [
+    "binary-to-letter",
+    "string",
+    "convert",
+    "encode"
+  ],
+  "author": "Thammarith",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/thammarith/binary2Letter/issues"
+  },
+  "homepage": "https://github.com/thammarith/binary2Letter#readme"
+}
