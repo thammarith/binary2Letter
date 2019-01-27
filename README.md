@@ -44,7 +44,7 @@ console.log(encoded); // F
 
 ## Caveat
 
-If the input is not six letters long, it will add zeros **at the end**, for instance `111` becomes `111000`. So either make sure that you add `0`s as its prefix or accept the consequence.
+If the input is not six letters long, it will add zeros **at the end**, for instance `111` becomes `111000`. So either make sure that you add `0s` as its prefix or accept the consequence.
 
 ## Test
 
