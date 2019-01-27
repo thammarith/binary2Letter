@@ -35,6 +35,17 @@ I don't know why would you want to use this but if you wish to, you can use `imp
 import { binary2letter } from 'binary2letter';
 ```
 
+Use `binary2letter(string)` where you need. It returns string, e.g.,
+
+```javascript
+let encoded = binary2letter('001111');
+console.log(encoded); // F
+```
+
+## Caveat
+
+If the input is not six letters long, it will add zeros **at the end**, for instance `111` becomes `111000`. So either make sure that you add `0s` as its prefix or accept the consequence.
+
 ## Test
 
 Don't know. Can't write test. Still learning about it.
